@@ -1,0 +1,40 @@
+*{padding: 0 ; margin: 0;}
+
+.container {margin:auto; width: 1520px;}
+.container2 {margin: auto; width: 1520px;}
+
+ menu {height: 120px; background: lightblue;}
+ menu .gambar img {width: 90px; height:90px; float: left; padding: 15px 0 0 25px;}
+ menu .men {text-align: right; padding: 50px 0 0 0;}
+ menu .men a{padding-right: 30px; text-decoration: none; font-size:20px; color: white;}
+
+article   {overflow:hidden; width:100%; height: auto; }
+
+article .tabel  {width:100%; height: auto; float: left;  display: inline-flex; padding: 40px 0 0 125px;}
+table, th, td {border: 1px solid blue;}
+table {font-family:arial;}
+caption {background-color:black; color: white; font-size: 26px; padding: 10px;}
+th, td {padding: 5px 25px ;}
+thead {background-color: steelblue; color: silver;}
+tbody {background-color: silver;}
+td {color: blue;}
+tfoot {background-color: seagreen; color: white;}
+tbody tr td:nth-child(2) {text-align: center;}
+tbody tr td:nth-child(3),tbody tr td:nth-child(4) {text-align: right;}
+tr:nth-child(even) {background-color: white;}
+
+footer {background-color: grey; color: white; overflow: hidden; margin-top: 50px;}
+
+footer .footerkiri {float: left; width: 500px; margin-left: 100px; margin-top: 50px; margin-bottom: 50px;}
+footer .footerkiri h1 {font-size: 40px;}
+footer .footerkiri h2 {font-size: 30px;}
+footer .footerkiri p  {font-size: 20px; margin-bottom: 20px;}
+footer .footerkiri .form1 input {margin: 2px 2px 2px 0; line-height: 35px; width: 450px; border-radius: 7px;}
+footer .footerkiri .form1 input.inputText {padding-left: 10px;}
+footer .footerkiri button[type=button] {background-color: lightblue; border: none; color: white; padding: 10px 13px; text-align: center; text-decoration: none; display: inline-block; cursor: pointer; font-size: 12px; border-radius: 8px; transition: all 1s ease; margin-top: 15px;}
+footer .footerkiri button[type=button]:hover {transition: all 1s ease; background-color: lightblue;}
+
+
+footer .footerkanan {float: right; width: 800px; margin-right: 10px; margin-top: 50px; margin-bottom: 50px;}
+footer .footerkanan img {width: 25px; height: 25px; float: left; margin-top: 20px;}
+footer .footerkanan p {margin-top: 20px; margin-left: 50px; font-size: 20px; margin-bottom: 20px;}
